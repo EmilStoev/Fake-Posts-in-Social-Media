@@ -12,6 +12,7 @@ These are my results:
 ![SGDC](https://user-images.githubusercontent.com/98655631/157280691-d3ec31a0-8a45-46b7-ba6e-c881fd8ace41.png)
 
 These are the Confusion Matrices for all 6 models. The second way to see the total accuracy is to use sklearn's 'accuracy_score', used here:
+
 ![Results](https://user-images.githubusercontent.com/98655631/157280894-77f40061-6ff5-4515-911f-4fefc046c1b1.png)
 
 Depending on the needed result, a different model can be described as 'best'. If overall accuracy is needed, then the LinearSVC model proves the best accuracy.

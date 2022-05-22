@@ -15,5 +15,6 @@ These are the Confusion Matrices for all 6 models. The second way to see the tot
 
 ![Results](https://user-images.githubusercontent.com/98655631/157280894-77f40061-6ff5-4515-911f-4fefc046c1b1.png)
 
-Depending on the needed result, a different model can be described as 'best'. If overall accuracy is needed, then the LinearSVC model proves the best accuracy.
+Accuracy score is generally not used in ML as it may not provide enough information regarding accuracy. It is used here to simply illustrate and compare the different algorithms, but was never used to determine which algorithm is best suited. F1_score and subsequently decision matrices are always going to be preferred in these types of problems.
+
 If finding specifically 'fake' posts and not flagging them as 'real' (top right of confusion matrix), then the Random Forest Classifier is the best with only 30 fake posts being flagged as real.
